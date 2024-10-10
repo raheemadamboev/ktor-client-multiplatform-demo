@@ -66,6 +66,7 @@ fun App(
                 onClick = {
                     scope.launch {
                         loading = true
+                        censoredText = null
                         error = null
 
                         api.getCensoredText(uncensoredText).onResult(
