@@ -1,0 +1,3 @@
+package xyz.teamgravity.ktorclientmultiplatformdemo
+
+sealed interface Error
